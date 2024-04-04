@@ -71,7 +71,7 @@
                           }),
                           (item.quantity -= Number(selectedQuantity[item.id])),
                           showSuccessNotification())
-                        : showWarnNotification()
+                        : showErrorNotification()
                     "
                     class="cursor-pointer px-3 md:px-3 py-1 mb-3 md:py-1 bg-grey-800 border border-sky-600 text-white rounded-lg hover:bg-sky-700"
                     :class="
